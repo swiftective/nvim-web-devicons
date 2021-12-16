@@ -405,7 +405,7 @@ local icons = {
     name = "Cson",
   },
   ["css"] = {
-    icon = "",
+    icon = "",
     color = "#563d7c",
     cterm_color = "60",
     name = "Css",
