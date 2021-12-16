@@ -88,7 +88,7 @@ local icons = {
   },
   ["cs"] = {
     icon = "",
-    color = "#596706",
+    color = "#599eff",
     cterm_color = "58",
     name = "Cs",
   },
@@ -219,7 +219,7 @@ local icons = {
     name = "Zshprofile",
   },
   ["Dockerfile"] = {
-    icon = "",
+    icon = "",
     color = "#384d54",
     cterm_color = "59",
     name = "Dockerfile",
@@ -376,13 +376,13 @@ local icons = {
   },
   ["cp"] = {
     icon = "",
-    color = "#519aba",
+    color = "#599eff",
     cterm_color = "67",
     name = "Cp",
   },
   ["cpp"] = {
     icon = "",
-    color = "#519aba",
+    color = "#599eff",
     cterm_color = "67",
     name = "Cpp",
   },
@@ -603,19 +603,19 @@ local icons = {
     name = "Hs",
   },
   ["htm"] = {
-    icon = "",
+    icon = "",
     color = "#e34c26",
     cterm_color = "166",
     name = "Htm",
   },
   ["html"] = {
-    icon = "",
+    icon = "",
     color = "#e34c26",
     cterm_color = "166",
     name = "Html",
   },
   ["erb"] = {
-    icon = "",
+    icon = "",
     color = "#701516",
     cterm_color = "52",
     name = "Erb",
@@ -627,7 +627,7 @@ local icons = {
     name = "Hxx",
   },
   ["ico"] = {
-    icon = "",
+    icon = "",
     color = "#cbcb41",
     cterm_color = "185",
     name = "Ico",
@@ -651,19 +651,19 @@ local icons = {
     name = "Jl",
   },
   ["jpeg"] = {
-    icon = "",
+    icon = "",
     color = "#a074c4",
     cterm_color = "140",
     name = "Jpeg",
   },
   ["jpg"] = {
-    icon = "",
+    icon = "",
     color = "#a074c4",
     cterm_color = "140",
     name = "Jpg",
   },
   ["js"] = {
-    icon = "",
+    icon = "",
     color = "#cbcb41",
     cterm_color = "185",
     name = "Js",
@@ -676,7 +676,7 @@ local icons = {
   },
   ["jsx"] = {
     icon = "",
-    color = "#519aba",
+    color = "#03cafc",
     cterm_color = "67",
     name = "Jsx",
   },
@@ -801,7 +801,7 @@ local icons = {
     name = "Pm",
   },
   ["png"] = {
-    icon = "",
+    icon = "",
     color = "#a074c4",
     cterm_color = "140",
     name = "Png",
@@ -832,7 +832,7 @@ local icons = {
   },
   ["py"] = {
     icon = "",
-    color = "#3572A5",
+    color = "#30bcfc",
     cterm_color = "61",
     name = "Py",
   },
@@ -855,46 +855,41 @@ local icons = {
     name = "Pyo",
   },
   ["r"] = {
-    icon = "ﳒ",
+    icon = "",
     color = "#358a5b",
     cterm_color = "65",
     name = "R",
   },
   ["R"] = {
-    icon = "ﳒ",
+    icon = "",
     color = "#358a5b",
     cterm_color = "65",
     name = "R",
   },
   ["rake"] = {
-    icon = "",
+    icon = "",
     color = "#701516",
     cterm_color = "52",
     name = "Rake",
   },
   ["rakefile"] = {
-    icon = "",
+    icon = "",
     color = "#701516",
     cterm_color = "52",
     name = "Rakefile",
   },
   ["rb"] = {
-    icon = "",
+    icon = "",
     color = "#701516",
     cterm_color = "52",
     name = "Rb",
   },
   ["Brewfile"] = {
-    icon = "",
+    icon = "",
     color = "#701516",
     cterm_color = "52",
-    name = "Brewfile"
-  };
-  ["Brewfile"] = {
-    icon = "",
-    color = "#701516",
-    name = "Brewfile"
-  };
+    name = "Brewfile",
+  },
   ["rlib"] = {
     icon = "",
     color = "#dea584",
@@ -1011,15 +1006,10 @@ local icons = {
   },
   ["txt"] = {
     icon = "",
-    color = "#89e051",
+    color = "#b9edf0",
     cterm_color = "113",
-    name = "Txt"
-  };
-  ["txt"] = {
-    icon = "",
-    color = "#89e051",
-    name = "Txt"
-  };
+    name = "Txt",
+  },
   ["tex"] = {
     icon = "ﭨ",
     color = "#3D6117",
@@ -1034,13 +1024,13 @@ local icons = {
   },
   ["ts"] = {
     icon = "",
-    color = "#519aba",
+    color = "#599eff",
     cterm_color = "67",
     name = "Ts",
   },
   ["tsx"] = {
     icon = "",
-    color = "#519aba",
+    color = "#599eff",
     cterm_color = "67",
     name = "Tsx",
   },
@@ -1058,7 +1048,7 @@ local icons = {
   },
   ["vue"] = {
     icon = "﵂",
-    color = "#8dc149",
+    color = "#019833",
     cterm_color = "107",
     name = "Vue",
   },
@@ -1212,11 +1202,34 @@ local icons = {
     cterm_color = "208",
     name = "Zig",
   },
-  ['mint'] = {
+  ["mint"] = {
     icon = "",
-    color ='#87c095',
+    color = "#87c095",
     cterm_color = "108",
     name = "Mint",
+  },
+
+  ["deb"] = {
+    icon = "",
+    color = "#0ee2ed",
+    name = "deb",
+  },
+
+  ["lock"] = {
+    icon = "",
+    color = "#cc3e44",
+    name = "lock",
+  },
+
+  ["zip"] = {
+    icon = "",
+    color = "#f69a1b",
+    name = "zip",
+  },
+  ["xz"] = {
+    icon = "",
+    color = "#f69a1b",
+    name = "xz",
   },
 }
 
@@ -1229,7 +1242,7 @@ local default_icon = {
 
 local global_opts = {
   override = {},
-  default = false
+  default = false,
 }
 
 local function get_highlight_name(data)
@@ -1239,14 +1252,14 @@ end
 local function set_up_highlight(icon_data)
   local hl_group = get_highlight_name(icon_data)
   if hl_group then
-    local highlight_command = "highlight! "..hl_group
+    local highlight_command = "highlight! " .. hl_group
 
     if icon_data.color then
-      highlight_command = highlight_command.." guifg="..icon_data.color
+      highlight_command = highlight_command .. " guifg=" .. icon_data.color
     end
 
     if icon_data.cterm_color then
-      highlight_command = highlight_command.." ctermfg="..icon_data.cterm_color
+      highlight_command = highlight_command .. " ctermfg=" .. icon_data.cterm_color
     end
 
     if icon_data.color or icon_data.cterm_color then
@@ -1266,7 +1279,9 @@ end
 local loaded = false
 
 local function setup(opts)
-  if loaded then return end
+  if loaded then
+    return
+  end
 
   loaded = true
 
@@ -1280,7 +1295,7 @@ local function setup(opts)
     default_icon = user_icons.override.default_icon
   end
 
-  icons = vim.tbl_extend("force", icons, user_icons.override or {});
+  icons = vim.tbl_extend("force", icons, user_icons.override or {})
 
   table.insert(icons, default_icon)
 
@@ -1293,7 +1308,7 @@ local function setup(opts)
 end
 
 local function get_icon(name, ext, opts)
-  ext = ext or name:match("^.*%.(.*)$") or ""
+  ext = ext or name:match "^.*%.(.*)$" or ""
   if not loaded then
     setup()
   end
@@ -1307,7 +1322,7 @@ local function get_icon(name, ext, opts)
 end
 
 local function get_icon_colors(name, ext, opts)
-  ext = ext or name:match("^.*%.(.*)$") or ""
+  ext = ext or name:match "^.*%.(.*)$" or ""
   if not loaded then
     setup()
   end
@@ -1352,7 +1367,11 @@ return {
   set_icon = set_icon,
   set_default_icon = set_default_icon,
   setup = setup,
-  has_loaded = function() return loaded end,
-  get_icons = function() return icons end,
+  has_loaded = function()
+    return loaded
+  end,
+  get_icons = function()
+    return icons
+  end,
   set_up_highlights = set_up_highlights,
 }
