@@ -410,6 +410,12 @@ local icons = {
     cterm_color = "60",
     name = "Css",
   },
+  ["csv"] = {
+    icon = "",
+    color = "#89e051",
+    cterm_color = "113",
+    name = "Csv",
+  },
   ["cxx"] = {
     icon = "",
     color = "#519aba",
